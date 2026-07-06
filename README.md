@@ -73,3 +73,4 @@ dotnet test
 The MAUI app defaults to `http://localhost:5080` (and `http://10.0.2.2:5080` on the Android emulator). Keep this API running before launching the app. CORS is open in Development.
 
 See `AI-USAGE.md` for the AI-assistance disclosure required by the assessment.
+
