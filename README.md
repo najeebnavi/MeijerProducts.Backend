@@ -1,6 +1,6 @@
 # Meijer Products — Backend API
 
-.NET 8 Web API exposing the two product endpoints over a real (SQLite) persistence layer, plus unit tests.
+.NET 10 Web API exposing the two product endpoints over a real (SQLite) persistence layer, plus unit tests.
 
 This is the **backend half** of the assessment. The MAUI app is shipped separately and talks to this API over HTTP.
 
@@ -39,7 +39,7 @@ Swagger UI is served at the site root in Development.
 
 ## Run
 
-Requires the .NET 8 SDK.
+Requires the .NET 10 SDK.
 
 ```bash
 cd src/MeijerProducts.Api
