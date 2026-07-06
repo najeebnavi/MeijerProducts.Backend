@@ -1,0 +1,13 @@
+@host = http://localhost:5080
+
+### Get all products (list screen)
+GET {{host}}/api/products
+Accept: application/json
+
+### Get a single product's detail (detail screen)
+GET {{host}}/api/products/0
+Accept: application/json
+
+### Product that does not exist -> 404 ProblemDetails
+GET {{host}}/api/products/9999
+Accept: application/json
